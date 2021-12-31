@@ -1,0 +1,274 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom:20px;
+}
+
+p{
+    margin:10px 0;
+}
+/* Utility Class  */
+
+.container{
+    margin:auto;
+    max-width:1100px;
+    overflow:auto;
+    padding:0 20px;
+}
+
+.text-primary{
+    color:#f7c08a;
+}
+
+.btn{
+    font-weight: bold;
+    display: inline-block;
+    background-color: #333;
+    padding: 15px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn_lite{
+    color:#333;
+    background: #f4f4f4;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color:black;
+}
+
+.bg_dark{
+    background-color: #333;
+    color:#fff;
+}
+.bg_primary{
+    background-color: #f7c08a;
+    color:#333;
+}
+.bg_dark{
+    background-color: #333;
+    color:#fff;
+}
+
+.bg_lite{
+    color:#333;
+    background: #f4f4f4;
+}
+.clr{
+    clear:both;
+}
+
+.l_size{
+    font-size:35px;
+}
+/* Padding Y  */
+.paddy-3{
+    padding:30px 0;
+}
+.paddy-2{
+    padding:20px 0;
+}
+.paddy-1{
+    padding:10px 0;
+}
+
+/* Navbar */
+#navbar{
+    background: #333;
+    overflow:auto;
+    color:#fff;
+}
+#navbar a{
+    color:#fff;
+}
+#navbar h1{
+    float:left;
+    padding-top:20px;
+}
+#navbar ul{
+    list-style: none;
+    float:right;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background:#444;
+    color:#f7c08a;
+}
+
+/* Showcase */
+#showcase {
+    background: url('images hotel/showcaseR.jpg') no-repeat 
+    center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top:170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
+
+/* Info-content */
+#home_info {
+    height:800px;
+}
+#home_info .info_img{
+    float:left;
+    background: url('images hotel/asideview.jpg') no-repeat 
+    center center/cover;
+    min-height:100%;
+    width:50%;
+}
+
+#home_info .info_content{
+    float:right;
+    text-align: center;
+    width:50%;
+    height: 100%;   
+}
+#home_info .info_content h1{
+    padding-top:200px;
+    font-size: 30px;
+}
+#home_info .info_content p{
+    padding: 40px 50px ;
+    line-height: 1.7em;
+}
+
+/* Features */
+
+.box{
+    float : left;
+    width:33.3%;
+    padding:50;
+    text-align:center;
+    height:250px;
+}
+
+.box i{
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+
+
+/* About-info */
+
+#about_info .info_right{
+    float:right;
+    width:50%;
+    min-height:100% ;
+}
+
+#about_info .info_right img{
+    display: block;
+    margin:auto;
+    width:70%;
+    border-radius: 10%;
+}
+
+#about_info .info_left{
+    float:left;
+    width:50%;
+    /* text-align:center; */
+}
+#about_info .info_left h1{
+    text-align: center;
+}
+
+/* Reviews */
+#test_info {
+    height:600px;
+    background: url('images hotel/hotelbg.jpg') no-repeat
+     center center/cover;
+    padding-top:100px;
+}
+#test_info h1{
+    text-align:center;
+    color:#fff;
+    margin-bottom:50px;
+}
+#test_info .review {
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding:20px;
+    opacity: 0.95;
+}
+#test_info .review img{
+    width:75px;
+    height:100px;
+    float:left;
+    margin-right:20px;
+    border-radius:30%;
+}
+
+/* Contact form */
+
+#form_info{
+    margin-left:20px;
+}
+#form_info .form_group{
+    margin-bottom: 20px;
+}
+
+#form_info label{
+    display:block;
+    margin-bottom: 5px;
+}
+
+#form_info input,
+#form_info textarea{
+    padding:10px;
+    width:100%;
+    border: 1px #333 solid;
+    background-color:whitesmoke;
+}
+#form_info input:focus,
+#form_info textarea:focus{
+    outline:none;
+    border-color:#f7c08a;
+}
+#form_info .form_group textarea{
+    height:200px;
+}
+/* footer */
+
+#main_footer{
+    text-align:center;
+    background:#444;
+    color: #fff;
+    padding:20px;
+}
