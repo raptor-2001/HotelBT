@@ -1,3 +1,4 @@
+
 /* Navbar */
 #navbar .logo{
     float:none;
@@ -21,9 +22,9 @@
     padding-bottom:50px;
 }
 /* Info-content */
-#home_info {
+/* #home_info {
     height:550px;
-}
+} */
 #home_info .info_img{
     display: none;
 }
@@ -57,3 +58,4 @@
 #contact_info .box{
     border-bottom: #444 dotted 1px;
 }
+
